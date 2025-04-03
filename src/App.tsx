@@ -287,6 +287,20 @@ function App() {
             ))}
           </div>
         </section>
+
+        <footer className="max-w-6xl mx-auto pt-8 sm:pt-12 mt-8 sm:mt-12 border-t border-[#B68D40]/20">
+          <div className="text-center space-y-2">
+            <a 
+              href="https://equinology.co.uk" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#B68D40] hover:text-[#9A7835] transition-colors duration-300 inline-flex items-center gap-2"
+            >
+              Powered by Equinology
+            </a>
+            <p className="text-white/50 text-sm">© {new Date().getFullYear()} BeHorseSavvy. All rights reserved.</p>
+          </div>
+        </footer>
       </div>
     );
   };
@@ -475,6 +489,20 @@ function App() {
             ))}
           </div>
         </section>
+
+        <footer className="max-w-6xl mx-auto pt-8 sm:pt-12 mt-8 sm:mt-12 border-t border-white/20">
+          <div className="text-center space-y-2">
+            <a 
+              href="https://equinology.co.uk" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#C8102E] transition-colors duration-300 inline-flex items-center gap-2"
+            >
+              Powered by Equinology
+            </a>
+            <p className="text-white/50 text-sm">© {new Date().getFullYear()} The Penny Club. All rights reserved.</p>
+          </div>
+        </footer>
       </div>
     );
   };
